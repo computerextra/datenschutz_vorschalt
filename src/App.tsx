@@ -78,6 +78,15 @@ function App() {
               className="text-blue-500 underline"
             >
               Datenschutzerklärung
+            </a>{" "}
+            und unserem{" "}
+            <a
+              href="https://computer-extra.de/Impressum"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              Impressum
             </a>
             .
           </p>
