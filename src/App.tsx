@@ -38,18 +38,18 @@ function App() {
         <h1 className="text-center">Datenschutz Training</h1>
         <h2 className="text-center">
           Der Firmen{" "}
-          <span className="underline font-semibold">Computer Extra GmbH</span>{" "}
+          <span className="font-semibold underline">Computer Extra GmbH</span>{" "}
           und{" "}
-          <span className="underline font-semibold">
+          <span className="font-semibold underline">
             AEM Communication GmbH & Co. KG
           </span>
         </h2>
         <p className="text-xl">
           <b>Achtung:</b> Diese Webseite ist ausschließlich für Mitarbeiter der
           Firmen{" "}
-          <span className="underline font-semibold">Computer Extra GmbH</span>{" "}
+          <span className="font-semibold underline">Computer Extra GmbH</span>{" "}
           und{" "}
-          <span className="underline font-semibold">
+          <span className="font-semibold underline">
             AEM Communication GmbH & Co. KG
           </span>{" "}
           gedacht.
@@ -61,8 +61,8 @@ function App() {
           notwendig!
         </p>
       </div>
-      <div className="container mx-auto rounded-xl border border-black p-4 mt-8 flex flex-col">
-        <div className="text-center mb-4">
+      <div className="container flex flex-col p-4 mx-auto mt-8 border border-black rounded-xl">
+        <div className="mb-4 text-center">
           <h1>Verwendung von Cookies</h1>
           <p>
             Um unsere Webseite für Sie optimal zu gestalten und fortlaufend
